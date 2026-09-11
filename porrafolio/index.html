@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio Personal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER + NAV -->
+  <header>
+    <div class="container header-content">
+      <a href="#" class="logo">Joseph Leyva</a>
+      <button class="hamburger" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#acerca">Acerca de mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Hola, soy <span class="highlight">Joseph</span></h1>
+          <p>Desarrollador web en formación | Entusiasta de la tecnología | dibujante | panadero | calistenico</p>
+          <a href="#contacto" class="btn">Contáctame</a>
+        </div>
+        <div class="hero-img">
+          <img src="img/mifoto.png" alt="Foto de perfil" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ACERCA DE MÍ -->
+    <section id="acerca" class="about">
+      <div class="container">
+        <h2>Acerca de mí</h2>
+        <p>
+           soy una persona que siempre esta dispuesta a aprender cosas nuevas, dibujante de pasion,
+           me encanta crear cosas con mis propias manos ya sea programando o dibujando y no solo
+           me rijo en lo academico si no que los deportes tambien son mi pasion, tales como el voleybol,
+           y la calistenia
+        </p>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="skills">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>dibujar/ diseño</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>programacion</span>
+              <span class="skill-percent">30%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="30%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>panaderia</span>
+              <span class="skill-percent">70%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="70%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>calistenia/deporte</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="projects">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="img/arte.png" alt="Proyecto 1" />
+            </div>
+            <div class="project-content">
+              <h3>dibujos y arte</h3>
+              <p>diseños de arte en formato fisico y vurtual.</p>
+              <a href="#" class="btn-small">Ver más</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop" alt="Proyecto 3" />
+            </div>
+            <div class="project-content">
+              <h3>Portafolio Personal</h3>
+              <p>Sitio web personal con diseño responsive y animaciones CSS.</p>
+              <a href="#" class="btn-small">Ver más</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+<section id="contacto" class="contact">
+  <div class="container">
+    <h2>Contacto</h2>
+
+    <div style="text-align: center; margin-top: 25px;">
+      <p style="margin-bottom: 15px; color: #6b7280;">
+        ¿Prefieres contactarme directamente?
+      </p>
+      <p style="margin-bottom: 15px; font-weight: 600;">
+        WhatsApp / Celular: +57 300 156 4846
+      </p>
+      <a href="https://wa.me/573001564846" target="_blank" class="btn" style="background: #25D366;">
+        Enviar mensaje por WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <script src="script.js"></Script>
+  </body>
+</html>
