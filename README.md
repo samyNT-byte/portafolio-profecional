@@ -1,2 +1,2 @@
 # portafolio-profecional
-mi portafolioi profecional hecho con html, css u javascript
+portafolio hecho con html,css y javascript
